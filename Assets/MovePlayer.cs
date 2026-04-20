@@ -21,12 +21,12 @@ public class MovePlayer : MonoBehaviour
         
         Vector3 dir = move.action.ReadValue<Vector2>();
 
-        if(rb.linearVelocity.x < 5)
+        if(Mathf.Abs(rb.linearVelocity.x) < 8)
         {
             rb.linearVelocity += new Vector2(dir.x, 0) * Time.deltaTime * moveSpeed;
         }
 
-        if (jumpAction.action.WasPressedThisFrame())
+        if (jumpAction.action.WasPressedThisFrame() && Mathf.Abs(rb.linearVelocityY) < .1f)
         {
             rb.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
         }
