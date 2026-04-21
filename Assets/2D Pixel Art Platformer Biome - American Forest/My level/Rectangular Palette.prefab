@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2783878122995689173}
   m_Father: {fileID: 678494611512102707}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &3254251233839782210
@@ -453,7 +454,69 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &6272392116990334335
+--- !u!1001 &2605062715809579606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2342394138041863579}
+    m_Modifications:
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193598679855485740, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+      propertyPath: m_Name
+      value: Bouncing_trampoline_prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+--- !u!4 &2783878122995689173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 181649061262288003, guid: 8caed86a9ec2bf84b9f154114e3bc378, type: 3}
+  m_PrefabInstance: {fileID: 2605062715809579606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1751672360052652979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
