@@ -27,6 +27,9 @@ public class MovePlayer : MonoBehaviour
 
     [Header("Audio")]
     public AudioClip jumpSound;
+    
+    [Header("Effects")]
+    public ParticleSystem playerWalkTrailParticles;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -36,6 +39,8 @@ public class MovePlayer : MonoBehaviour
     private float currentSpeed;
     private bool isSprinting;
     private bool jumpPressed;
+
+    
 
     void Start()
     {
@@ -66,14 +71,28 @@ public class MovePlayer : MonoBehaviour
                 initialScale.y,
                 initialScale.z
             );
+
+            if (!playerWalkTrailParticles.isPlaying && IsGrounded())
+            {
+                playerWalkTrailParticles.Play();
+            }
+            else if(!IsGrounded())
+            {
+                playerWalkTrailParticles.Stop();
+            }
+        }
+        else
+        {
+            if (playerWalkTrailParticles.isPlaying)
+            {
+                playerWalkTrailParticles.Stop();
+            }
         }
 
         bool grounded = IsGrounded();
         anim.SetBool(isRunningBool, Mathf.Abs(input.x) > 0.05f);
         anim.SetBool(groundedBool, grounded);
         anim.SetFloat(yVelFloat, rb.linearVelocityY);
-        if (hitAction.action.WasPressedThisFrame())
-            anim.SetTrigger(hitTrigger);
     }
 
     private void FixedUpdate()
@@ -99,5 +118,12 @@ public class MovePlayer : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("InstantDeath")){
+            anim.SetTrigger(hitTrigger);
+        }
     }
 }
