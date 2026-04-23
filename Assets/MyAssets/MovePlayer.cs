@@ -24,13 +24,15 @@ public class MovePlayer : MonoBehaviour
     public string wallCollideBool = "WallCollide";
     public string hurtTrigger = "Hurt";
     public string speedMulString = "SpeedMultiplier";
+    public string wallJumpTrigger = "WallJump";
     public float sprintAnimSpeedScale = 2;
+    public float attackDashImpulse = 5f;
 
     [Header("Detection")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance = 0.2f;
     [SerializeField] private Transform wallCheck;
-    [SerializeField] private float wallCheckDistance = .2f;
+    [SerializeField] private float wallCheckDistance = .4f;
     [Header("Audio")]
     public AudioClip jumpSound;
     
@@ -46,9 +48,12 @@ public class MovePlayer : MonoBehaviour
     private bool isSprinting;
     private bool jumpPressed;
     private float currentRunAnimSpeedScale = 1;
+    private bool wallJumpPressed;
 
+    private bool didAttack = false;
     private float coyoteTime;
-    public float MaxCoyoteTime = .01f;
+
+    public float MaxCoyoteTime = .05f;
 
     void Start()
     {
@@ -66,6 +71,7 @@ public class MovePlayer : MonoBehaviour
         input = move.action.ReadValue<Vector2>();
         isSprinting = sprint.action.IsPressed();
         bool grounded = IsGrounded();
+        bool hittingWall = IsHittingWall();
 
         if (jumpAction.action.WasPressedThisFrame())
         {
@@ -100,7 +106,10 @@ public class MovePlayer : MonoBehaviour
             }
         }
 
-        if (attackAction.action.WasPressedThisFrame()) anim.SetTrigger(attackTrigger);
+        if (attackAction.action.WasPressedThisFrame()) { 
+            anim.SetTrigger(attackTrigger);
+            didAttack = true;
+        }
 
         if (grounded)
         {
@@ -111,7 +120,21 @@ public class MovePlayer : MonoBehaviour
             coyoteTime -= Time.deltaTime;
         }
         
-        bool hittingWall = IsHittingWall();
+        if(hittingWall)
+        {
+            rb.sharedMaterial.friction = 4f;
+
+            if (jumpPressed)
+            {
+                anim.SetTrigger(wallJumpTrigger);
+                wallJumpPressed = true;
+            }
+        }
+        else
+        {
+            rb.sharedMaterial.friction = 0;
+        }
+        
         anim.SetBool(isRunningBool, Mathf.Abs(input.x) > 0.05f);
         anim.SetBool(groundedBool, grounded);
         anim.SetFloat(yVelFloat, rb.linearVelocityY);
@@ -125,17 +148,27 @@ public class MovePlayer : MonoBehaviour
 
         if (jumpPressed)
         {
-            if (IsGrounded() || coyoteTime > 0)
+            if (IsGrounded() || coyoteTime > 0 || wallJumpPressed)
             {
                 if (audioSource != null && jumpSound != null)
                 {
                     audioSource.PlayOneShot(jumpSound);
                 }
 
+                if(rb.linearVelocityY < 15)
                 rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
             }
 
             jumpPressed = false;
+            wallJumpPressed = false;
+        }
+
+        if(didAttack)
+        {
+            float sign = Mathf.Sign(transform.localScale.x);
+            rb.AddForce(new Vector2(sign, 0) * attackDashImpulse , ForceMode2D.Impulse) ;
+
+            didAttack = false;
         }
     }
 
@@ -153,7 +186,8 @@ public class MovePlayer : MonoBehaviour
 
     private bool IsHittingWall()
     {
-        Vector2 dir = new Vector2(Mathf.Sign(transform.localScale.x), 0);
+        float sign = Mathf.Sign(transform.localScale.x);
+        Vector2 dir = new Vector2(sign, 0);
         return Physics2D.Raycast(wallCheck.position, dir, wallCheckDistance);
     }
 }
