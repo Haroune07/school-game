@@ -910,12 +910,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 175
-        width: 16
-        height: 32
+        x: 1
+        y: 176
+        width: 14
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 175
-        width: 13
-        height: 33
+        x: 19
+        y: 176
+        width: 11
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -954,12 +954,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 191
-        width: 13
-        height: 17
+        x: 34
+        y: 192
+        width: 11
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -976,12 +976,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 175
-        width: 12
-        height: 32
+        x: 51
+        y: 176
+        width: 10
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -998,12 +998,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 175
-        width: 12
-        height: 30
+        x: 67
+        y: 176
+        width: 10
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1020,12 +1020,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 175
-        width: 12
-        height: 33
+        x: 82
+        y: 176
+        width: 10
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1042,12 +1042,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_6
       rect:
         serializedVersion: 2
-        x: 111
-        y: 175
-        width: 34
-        height: 30
+        x: 112
+        y: 176
+        width: 32
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1064,12 +1064,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_7
       rect:
         serializedVersion: 2
-        x: 159
-        y: 191
-        width: 21
-        height: 17
+        x: 160
+        y: 192
+        width: 19
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_8
       rect:
         serializedVersion: 2
-        x: 176
-        y: 195
-        width: 8
-        height: 8
+        x: 177
+        y: 196
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1108,12 +1108,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_9
       rect:
         serializedVersion: 2
-        x: 177
-        y: 186
-        width: 32
-        height: 22
+        x: 178
+        y: 187
+        width: 30
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1130,12 +1130,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_10
       rect:
         serializedVersion: 2
-        x: 227
-        y: 191
-        width: 10
-        height: 17
+        x: 228
+        y: 192
+        width: 8
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1152,12 +1152,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_11
       rect:
         serializedVersion: 2
-        x: 239
-        y: 175
-        width: 18
-        height: 33
+        x: 240
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1174,12 +1174,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 191
-        width: 16
-        height: 17
+        x: 257
+        y: 192
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,12 +1196,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_13
       rect:
         serializedVersion: 2
-        x: 272
-        y: 182
-        width: 16
-        height: 26
+        x: 273
+        y: 183
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_14
       rect:
         serializedVersion: 2
-        x: 303
-        y: 191
-        width: 66
-        height: 17
+        x: 304
+        y: 192
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,12 +1240,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_15
       rect:
         serializedVersion: 2
-        x: 385
-        y: 194
-        width: 14
-        height: 10
+        x: 386
+        y: 195
+        width: 12
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,12 +1262,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_16
       rect:
         serializedVersion: 2
-        x: 401
-        y: 195
-        width: 14
-        height: 9
+        x: 402
+        y: 196
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,12 +1284,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_17
       rect:
         serializedVersion: 2
-        x: 417
-        y: 195
-        width: 14
-        height: 9
+        x: 418
+        y: 196
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,12 +1306,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_18
       rect:
         serializedVersion: 2
-        x: 433
-        y: 195
-        width: 14
-        height: 9
+        x: 434
+        y: 196
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,12 +1328,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_19
       rect:
         serializedVersion: 2
-        x: 449
-        y: 195
-        width: 14
-        height: 10
+        x: 450
+        y: 196
+        width: 12
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,12 +1350,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_20
       rect:
         serializedVersion: 2
-        x: 481
-        y: 192
-        width: 15
-        height: 16
+        x: 482
+        y: 193
+        width: 13
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,12 +1372,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_21
       rect:
         serializedVersion: 2
-        x: 496
-        y: 192
-        width: 15
-        height: 16
+        x: 497
+        y: 193
+        width: 13
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_22
       rect:
         serializedVersion: 2
-        x: 513
-        y: 192
-        width: 15
-        height: 16
+        x: 514
+        y: 193
+        width: 13
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,12 +1416,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_23
       rect:
         serializedVersion: 2
-        x: 528
-        y: 191
-        width: 17
-        height: 17
+        x: 529
+        y: 192
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,12 +1438,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_24
       rect:
         serializedVersion: 2
-        x: 543
-        y: 164
-        width: 33
-        height: 44
+        x: 544
+        y: 165
+        width: 32
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,12 +1460,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_25
       rect:
         serializedVersion: 2
-        x: 34
-        y: 175
-        width: 13
-        height: 16
+        x: 35
+        y: 176
+        width: 11
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,12 +1482,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_26
       rect:
         serializedVersion: 2
-        x: 159
-        y: 177
-        width: 21
-        height: 14
+        x: 160
+        y: 178
+        width: 19
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,12 +1504,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_27
       rect:
         serializedVersion: 2
-        x: 179
-        y: 177
-        width: 18
-        height: 14
+        x: 180
+        y: 178
+        width: 16
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,12 +1526,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_28
       rect:
         serializedVersion: 2
-        x: 196
-        y: 177
-        width: 13
-        height: 14
+        x: 197
+        y: 178
+        width: 11
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,12 +1548,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_29
       rect:
         serializedVersion: 2
-        x: 227
-        y: 179
-        width: 10
-        height: 10
+        x: 228
+        y: 180
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,12 +1570,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_30
       rect:
         serializedVersion: 2
-        x: 256
-        y: 176
-        width: 16
-        height: 16
+        x: 257
+        y: 177
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1592,12 +1592,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_31
       rect:
         serializedVersion: 2
-        x: 304
-        y: 178
-        width: 15
-        height: 12
+        x: 305
+        y: 179
+        width: 13
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1614,12 +1614,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_32
       rect:
         serializedVersion: 2
-        x: 323
-        y: 179
-        width: 11
-        height: 10
+        x: 324
+        y: 180
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,12 +1636,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_33
       rect:
         serializedVersion: 2
-        x: 340
-        y: 181
-        width: 8
-        height: 8
+        x: 341
+        y: 182
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,12 +1658,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_34
       rect:
         serializedVersion: 2
-        x: 356
-        y: 183
-        width: 6
-        height: 6
+        x: 357
+        y: 184
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_35
       rect:
         serializedVersion: 2
-        x: 389
-        y: 180
-        width: 7
-        height: 7
+        x: 390
+        y: 181
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,12 +1702,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_36
       rect:
         serializedVersion: 2
-        x: 404
-        y: 179
-        width: 9
-        height: 9
+        x: 405
+        y: 180
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,12 +1724,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_37
       rect:
         serializedVersion: 2
-        x: 417
-        y: 176
-        width: 15
-        height: 15
+        x: 418
+        y: 177
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,12 +1746,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_38
       rect:
         serializedVersion: 2
-        x: 432
-        y: 175
-        width: 17
-        height: 17
+        x: 433
+        y: 176
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,12 +1768,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_39
       rect:
         serializedVersion: 2
-        x: 450
-        y: 175
-        width: 13
-        height: 17
+        x: 451
+        y: 176
+        width: 11
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,12 +1790,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_40
       rect:
         serializedVersion: 2
-        x: 479
-        y: 176
-        width: 17
-        height: 17
+        x: 480
+        y: 177
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,12 +1812,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_41
       rect:
         serializedVersion: 2
-        x: 495
-        y: 175
-        width: 17
-        height: 18
+        x: 496
+        y: 176
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,12 +1834,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_42
       rect:
         serializedVersion: 2
-        x: 511
-        y: 176
-        width: 18
-        height: 17
+        x: 512
+        y: 177
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,12 +1856,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_43
       rect:
         serializedVersion: 2
-        x: 528
-        y: 185
-        width: 9
-        height: 7
+        x: 529
+        y: 186
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,12 +1878,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_44
       rect:
         serializedVersion: 2
-        x: 529
-        y: 176
+        x: 537
+        y: 185
         width: 6
-        height: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,12 +1900,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_45
       rect:
         serializedVersion: 2
-        x: 533
-        y: 175
-        width: 10
-        height: 10
+        x: 225
+        y: 145
+        width: 15
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1922,12 +1922,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_46
       rect:
         serializedVersion: 2
-        x: 536
-        y: 184
-        width: 8
-        height: 9
+        x: 241
+        y: 146
+        width: 14
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1944,12 +1944,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_47
       rect:
         serializedVersion: 2
-        x: 4
-        y: 164
-        width: 7
-        height: 7
+        x: 304
+        y: 160
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1966,12 +1966,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_48
       rect:
         serializedVersion: 2
-        x: 18
-        y: 161
-        width: 13
-        height: 13
+        x: 448
+        y: 134
+        width: 16
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1988,12 +1988,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_49
       rect:
         serializedVersion: 2
-        x: 31
-        y: 159
-        width: 18
-        height: 15
+        x: 530
+        y: 177
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2010,12 +2010,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_50
       rect:
         serializedVersion: 2
-        x: 47
-        y: 111
-        width: 34
-        height: 57
+        x: 534
+        y: 176
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2032,12 +2032,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_51
       rect:
         serializedVersion: 2
-        x: 83
-        y: 143
-        width: 12
-        height: 26
+        x: 5
+        y: 165
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2054,12 +2054,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_52
       rect:
         serializedVersion: 2
-        x: 111
-        y: 160
-        width: 18
-        height: 16
+        x: 19
+        y: 162
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2076,12 +2076,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_53
       rect:
         serializedVersion: 2
-        x: 131
-        y: 162
-        width: 14
+        x: 32
+        y: 160
+        width: 16
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2098,12 +2098,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_54
       rect:
         serializedVersion: 2
-        x: 162
-        y: 159
-        width: 12
-        height: 15
+        x: 48
+        y: 112
+        width: 32
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2120,12 +2120,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_55
       rect:
         serializedVersion: 2
-        x: 179
-        y: 159
-        width: 9
-        height: 12
+        x: 84
+        y: 144
+        width: 10
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2142,12 +2142,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_56
       rect:
         serializedVersion: 2
-        x: 197
-        y: 159
-        width: 6
-        height: 9
+        x: 112
+        y: 161
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2164,12 +2164,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_57
       rect:
         serializedVersion: 2
-        x: 224
-        y: 144
-        width: 17
-        height: 33
+        x: 132
+        y: 163
+        width: 12
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2186,12 +2186,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_58
       rect:
         serializedVersion: 2
-        x: 240
-        y: 145
-        width: 16
-        height: 32
+        x: 163
+        y: 160
+        width: 10
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2208,12 +2208,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_59
       rect:
         serializedVersion: 2
-        x: 256
-        y: 159
-        width: 16
-        height: 16
+        x: 180
+        y: 160
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2230,12 +2230,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_60
       rect:
         serializedVersion: 2
-        x: 272
-        y: 159
-        width: 16
-        height: 17
+        x: 198
+        y: 160
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2252,12 +2252,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_61
       rect:
         serializedVersion: 2
-        x: 303
-        y: 159
-        width: 66
-        height: 18
+        x: 257
+        y: 160
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2274,12 +2274,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_62
       rect:
         serializedVersion: 2
-        x: 388
-        y: 164
-        width: 7
-        height: 7
+        x: 273
+        y: 160
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2296,12 +2296,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_63
       rect:
         serializedVersion: 2
-        x: 403
-        y: 163
-        width: 9
-        height: 9
+        x: 389
+        y: 165
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2318,12 +2318,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_64
       rect:
         serializedVersion: 2
-        x: 417
-        y: 161
-        width: 13
-        height: 13
+        x: 404
+        y: 164
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2340,12 +2340,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_65
       rect:
         serializedVersion: 2
-        x: 432
-        y: 156
-        width: 16
-        height: 19
+        x: 418
+        y: 162
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2362,12 +2362,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_66
       rect:
         serializedVersion: 2
-        x: 447
-        y: 133
-        width: 18
-        height: 44
+        x: 433
+        y: 157
+        width: 14
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2384,12 +2384,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_67
       rect:
         serializedVersion: 2
-        x: 485
-        y: 159
-        width: 6
-        height: 9
+        x: 486
+        y: 160
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2406,12 +2406,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_68
       rect:
         serializedVersion: 2
-        x: 500
-        y: 159
-        width: 6
-        height: 11
+        x: 501
+        y: 160
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2428,12 +2428,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_69
       rect:
         serializedVersion: 2
-        x: 512
-        y: 144
-        width: 17
-        height: 28
+        x: 513
+        y: 145
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2450,12 +2450,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_70
       rect:
         serializedVersion: 2
-        x: 532
-        y: 160
-        width: 8
-        height: 16
+        x: 533
+        y: 161
+        width: 6
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2472,12 +2472,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_71
       rect:
         serializedVersion: 2
-        x: 4
-        y: 148
-        width: 8
-        height: 8
+        x: 5
+        y: 149
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2494,12 +2494,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_72
       rect:
         serializedVersion: 2
-        x: 20
-        y: 147
-        width: 9
-        height: 9
+        x: 21
+        y: 148
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2516,12 +2516,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_73
       rect:
         serializedVersion: 2
-        x: 31
-        y: 143
-        width: 18
-        height: 16
+        x: 32
+        y: 144
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2538,12 +2538,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_74
       rect:
         serializedVersion: 2
-        x: 116
-        y: 149
-        width: 9
-        height: 7
+        x: 117
+        y: 150
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2560,12 +2560,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_75
       rect:
         serializedVersion: 2
-        x: 128
-        y: 146
-        width: 15
-        height: 13
+        x: 129
+        y: 147
+        width: 13
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2582,12 +2582,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_76
       rect:
         serializedVersion: 2
-        x: 164
+        x: 179
         y: 136
-        width: 8
+        width: 9
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2604,12 +2604,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_77
       rect:
         serializedVersion: 2
-        x: 178
-        y: 135
-        width: 11
-        height: 18
+        x: 193
+        y: 129
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2626,12 +2626,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_78
       rect:
         serializedVersion: 2
-        x: 192
-        y: 95
-        width: 17
-        height: 64
+        x: 259
+        y: 146
+        width: 9
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2648,12 +2648,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_79
       rect:
         serializedVersion: 2
-        x: 258
-        y: 145
-        width: 11
-        height: 13
+        x: 267
+        y: 152
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2670,12 +2670,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_80
       rect:
         serializedVersion: 2
-        x: 266
-        y: 151
-        width: 7
-        height: 7
+        x: 277
+        y: 147
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2692,12 +2692,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_81
       rect:
         serializedVersion: 2
-        x: 276
-        y: 146
-        width: 11
-        height: 10
+        x: 308
+        y: 147
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2714,12 +2714,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_82
       rect:
         serializedVersion: 2
-        x: 307
-        y: 146
-        width: 10
-        height: 11
+        x: 324
+        y: 148
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2736,12 +2736,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_83
       rect:
         serializedVersion: 2
-        x: 323
+        x: 340
         y: 147
-        width: 11
-        height: 10
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2758,12 +2758,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_84
       rect:
         serializedVersion: 2
-        x: 339
-        y: 146
-        width: 10
-        height: 11
+        x: 355
+        y: 148
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2780,12 +2780,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_85
       rect:
         serializedVersion: 2
-        x: 354
-        y: 147
-        width: 11
-        height: 10
+        x: 389
+        y: 149
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2802,12 +2802,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_86
       rect:
         serializedVersion: 2
-        x: 388
-        y: 148
-        width: 7
-        height: 7
+        x: 403
+        y: 147
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2824,12 +2824,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_87
       rect:
         serializedVersion: 2
-        x: 402
+        x: 418
         y: 146
         width: 11
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2846,12 +2846,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_88
       rect:
         serializedVersion: 2
-        x: 417
-        y: 145
-        width: 13
+        x: 432
+        y: 144
+        width: 15
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2868,12 +2868,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_89
       rect:
         serializedVersion: 2
-        x: 431
-        y: 143
-        width: 17
-        height: 15
+        x: 486
+        y: 149
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2890,12 +2890,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_90
       rect:
         serializedVersion: 2
-        x: 485
-        y: 148
-        width: 6
-        height: 7
+        x: 500
+        y: 147
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2912,12 +2912,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_91
       rect:
         serializedVersion: 2
-        x: 499
-        y: 146
-        width: 11
-        height: 12
+        x: 529
+        y: 145
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2934,12 +2934,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_92
       rect:
         serializedVersion: 2
-        x: 528
-        y: 144
-        width: 17
-        height: 17
+        x: 545
+        y: 135
+        width: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2956,12 +2956,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_93
       rect:
         serializedVersion: 2
-        x: 544
-        y: 134
-        width: 26
-        height: 27
+        x: 562
+        y: 148
+        width: 14
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2978,12 +2978,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_94
       rect:
         serializedVersion: 2
-        x: 561
-        y: 147
-        width: 15
-        height: 11
+        x: 112
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3000,12 +3000,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_95
       rect:
         serializedVersion: 2
-        x: 111
-        y: 127
-        width: 18
-        height: 18
+        x: 165
+        y: 137
+        width: 6
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3022,12 +3022,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_96
       rect:
         serializedVersion: 2
-        x: 127
-        y: 129
-        width: 18
-        height: 14
+        x: 224
+        y: 80
+        width: 64
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3044,12 +3044,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_97
       rect:
         serializedVersion: 2
-        x: 223
-        y: 79
-        width: 66
-        height: 69
+        x: 235
+        y: 144
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3066,12 +3066,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_98
       rect:
         serializedVersion: 2
-        x: 234
-        y: 143
-        width: 7
-        height: 7
+        x: 336
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3088,12 +3088,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_99
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 352
+        y: 119
         width: 16
-        height: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3110,12 +3110,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_100
       rect:
         serializedVersion: 2
-        x: 335
-        y: 127
-        width: 18
-        height: 18
+        x: 4
+        y: 131
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3132,12 +3132,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_101
       rect:
         serializedVersion: 2
-        x: 351
-        y: 118
-        width: 18
-        height: 27
+        x: 18
+        y: 131
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3154,12 +3154,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_102
       rect:
         serializedVersion: 2
-        x: 400
-        y: 127
-        width: 17
-        height: 17
+        x: 32
+        y: 131
+        width: 16
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3176,12 +3176,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_103
       rect:
         serializedVersion: 2
-        x: 3
-        y: 130
+        x: 83
+        y: 112
         width: 11
-        height: 11
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3198,12 +3198,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_104
       rect:
         serializedVersion: 2
-        x: 17
+        x: 128
         y: 130
-        width: 13
+        width: 16
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3220,12 +3220,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_105
       rect:
         serializedVersion: 2
-        x: 31
-        y: 130
-        width: 18
-        height: 11
+        x: 307
+        y: 131
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3242,12 +3242,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_106
       rect:
         serializedVersion: 2
-        x: 82
-        y: 111
-        width: 13
-        height: 26
+        x: 321
+        y: 129
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3264,12 +3264,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_107
       rect:
         serializedVersion: 2
-        x: 306
+        x: 387
         y: 130
-        width: 12
-        height: 12
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3286,12 +3286,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_108
       rect:
         serializedVersion: 2
-        x: 386
-        y: 129
-        width: 13
-        height: 13
+        x: 401
+        y: 128
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3308,12 +3308,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_109
       rect:
         serializedVersion: 2
-        x: 420
-        y: 131
-        width: 9
-        height: 9
+        x: 421
+        y: 132
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3330,12 +3330,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_110
       rect:
         serializedVersion: 2
-        x: 437
-        y: 132
-        width: 7
-        height: 7
+        x: 438
+        y: 133
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3352,12 +3352,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_111
       rect:
         serializedVersion: 2
-        x: 480
-        y: 112
-        width: 16
-        height: 26
+        x: 481
+        y: 113
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3374,12 +3374,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_112
       rect:
         serializedVersion: 2
-        x: 501
-        y: 132
-        width: 7
-        height: 7
+        x: 502
+        y: 133
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3396,12 +3396,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_113
       rect:
         serializedVersion: 2
-        x: 515
-        y: 131
-        width: 10
-        height: 10
+        x: 516
+        y: 132
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3418,12 +3418,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_114
       rect:
         serializedVersion: 2
-        x: 532
-        y: 131
-        width: 9
-        height: 9
+        x: 533
+        y: 132
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3440,12 +3440,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_115
       rect:
         serializedVersion: 2
-        x: 547
-        y: 131
-        width: 9
-        height: 9
+        x: 548
+        y: 132
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3462,12 +3462,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_116
       rect:
         serializedVersion: 2
-        x: 3
-        y: 115
-        width: 11
-        height: 11
+        x: 4
+        y: 116
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3484,12 +3484,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_117
       rect:
         serializedVersion: 2
-        x: 17
-        y: 114
-        width: 13
-        height: 12
+        x: 18
+        y: 115
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3506,12 +3506,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_118
       rect:
         serializedVersion: 2
-        x: 32
-        y: 113
-        width: 15
-        height: 15
+        x: 33
+        y: 114
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3528,12 +3528,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_119
       rect:
         serializedVersion: 2
-        x: 114
-        y: 113
-        width: 13
-        height: 14
+        x: 115
+        y: 114
+        width: 11
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3550,12 +3550,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_120
       rect:
         serializedVersion: 2
-        x: 127
-        y: 111
-        width: 18
-        height: 18
+        x: 128
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3572,12 +3572,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_121
       rect:
         serializedVersion: 2
-        x: 163
-        y: 114
-        width: 11
-        height: 11
+        x: 164
+        y: 115
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3594,12 +3594,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_122
       rect:
         serializedVersion: 2
-        x: 175
-        y: 97
-        width: 18
-        height: 31
+        x: 176
+        y: 98
+        width: 16
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3616,12 +3616,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_123
       rect:
         serializedVersion: 2
-        x: 308
-        y: 116
-        width: 8
-        height: 8
+        x: 309
+        y: 117
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3638,12 +3638,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_124
       rect:
         serializedVersion: 2
-        x: 324
-        y: 116
-        width: 8
-        height: 8
+        x: 325
+        y: 117
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3660,12 +3660,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_125
       rect:
         serializedVersion: 2
-        x: 341
-        y: 117
-        width: 6
-        height: 6
+        x: 342
+        y: 118
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3682,12 +3682,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_126
       rect:
         serializedVersion: 2
-        x: 385
-        y: 112
-        width: 15
-        height: 15
+        x: 386
+        y: 113
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3704,12 +3704,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_127
       rect:
         serializedVersion: 2
-        x: 402
-        y: 113
-        width: 14
-        height: 14
+        x: 403
+        y: 114
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3726,12 +3726,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_128
       rect:
         serializedVersion: 2
-        x: 419
-        y: 114
-        width: 11
-        height: 11
+        x: 420
+        y: 115
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3748,12 +3748,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_129
       rect:
         serializedVersion: 2
-        x: 436
-        y: 115
-        width: 23
-        height: 9
+        x: 437
+        y: 116
+        width: 21
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3770,12 +3770,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_130
       rect:
         serializedVersion: 2
-        x: 496
-        y: 101
-        width: 16
-        height: 27
+        x: 497
+        y: 102
+        width: 14
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3792,12 +3792,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_131
       rect:
         serializedVersion: 2
-        x: 512
-        y: 112
-        width: 16
-        height: 16
+        x: 513
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3814,12 +3814,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_132
       rect:
         serializedVersion: 2
-        x: 528
-        y: 112
-        width: 16
-        height: 16
+        x: 529
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3836,12 +3836,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_133
       rect:
         serializedVersion: 2
-        x: 544
-        y: 112
-        width: 16
-        height: 16
+        x: 545
+        y: 98
+        width: 14
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3858,12 +3858,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_134
       rect:
         serializedVersion: 2
-        x: 559
-        y: 112
-        width: 17
-        height: 16
+        x: 560
+        y: 100
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3880,12 +3880,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_135
       rect:
         serializedVersion: 2
-        x: 2
-        y: 97
-        width: 13
-        height: 13
+        x: 3
+        y: 98
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3902,12 +3902,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_136
       rect:
         serializedVersion: 2
-        x: 17
-        y: 98
-        width: 14
-        height: 13
+        x: 18
+        y: 99
+        width: 12
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3924,12 +3924,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_137
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
+        x: 33
+        y: 97
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3946,12 +3946,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_138
       rect:
         serializedVersion: 2
-        x: 53
-        y: 97
-        width: 7
-        height: 13
+        x: 54
+        y: 98
+        width: 5
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3968,12 +3968,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_139
       rect:
         serializedVersion: 2
-        x: 68
-        y: 98
-        width: 9
-        height: 12
+        x: 69
+        y: 99
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3990,12 +3990,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_140
       rect:
         serializedVersion: 2
-        x: 84
-        y: 95
-        width: 9
-        height: 17
+        x: 85
+        y: 96
+        width: 7
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4012,12 +4012,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_141
       rect:
         serializedVersion: 2
-        x: 115
-        y: 98
-        width: 9
-        height: 12
+        x: 116
+        y: 99
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4034,12 +4034,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_142
       rect:
         serializedVersion: 2
-        x: 129
-        y: 98
-        width: 13
-        height: 13
+        x: 130
+        y: 99
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4056,12 +4056,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_143
       rect:
         serializedVersion: 2
-        x: 165
-        y: 100
-        width: 7
-        height: 7
+        x: 166
+        y: 101
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4078,12 +4078,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_144
       rect:
         serializedVersion: 2
-        x: 308
-        y: 99
-        width: 12
-        height: 10
+        x: 309
+        y: 100
+        width: 10
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4100,12 +4100,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_145
       rect:
         serializedVersion: 2
-        x: 321
-        y: 100
-        width: 14
-        height: 8
+        x: 322
+        y: 101
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4122,12 +4122,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_146
       rect:
         serializedVersion: 2
-        x: 340
-        y: 99
-        width: 11
-        height: 10
+        x: 341
+        y: 100
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4144,12 +4144,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_147
       rect:
         serializedVersion: 2
-        x: 357
-        y: 98
-        width: 10
-        height: 12
+        x: 358
+        y: 99
+        width: 8
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4166,12 +4166,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_148
       rect:
         serializedVersion: 2
-        x: 400
-        y: 79
-        width: 15
-        height: 21
+        x: 432
+        y: 96
+        width: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4188,12 +4188,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_149
       rect:
         serializedVersion: 2
-        x: 422
-        y: 95
-        width: 10
-        height: 6
+        x: 451
+        y: 96
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4210,12 +4210,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_150
       rect:
         serializedVersion: 2
-        x: 431
-        y: 95
-        width: 18
-        height: 10
+        x: 482
+        y: 82
+        width: 12
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4232,12 +4232,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_151
       rect:
         serializedVersion: 2
-        x: 450
-        y: 95
-        width: 14
-        height: 9
+        x: 517
+        y: 101
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4254,12 +4254,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_152
       rect:
         serializedVersion: 2
-        x: 481
-        y: 81
-        width: 14
-        height: 24
+        x: 531
+        y: 98
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4276,12 +4276,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_153
       rect:
         serializedVersion: 2
-        x: 511
-        y: 79
-        width: 18
-        height: 21
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4298,12 +4298,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_154
       rect:
         serializedVersion: 2
-        x: 516
-        y: 100
-        width: 11
-        height: 8
+        x: 384
+        y: 48
+        width: 16
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4320,12 +4320,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_155
       rect:
         serializedVersion: 2
-        x: 530
-        y: 97
+        x: 401
+        y: 80
         width: 13
-        height: 13
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4342,12 +4342,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_156
       rect:
         serializedVersion: 2
-        x: 546
-        y: 97
-        width: 10
-        height: 13
+        x: 423
+        y: 96
+        width: 8
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4364,12 +4364,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_157
       rect:
         serializedVersion: 2
-        x: 562
-        y: 99
-        width: 10
-        height: 11
+        x: 512
+        y: 80
+        width: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4386,12 +4386,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_158
       rect:
         serializedVersion: 2
-        x: 2
-        y: 82
-        width: 13
-        height: 13
+        x: 544
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4408,12 +4408,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_159
       rect:
         serializedVersion: 2
-        x: 17
-        y: 81
-        width: 14
-        height: 14
+        x: 3
+        y: 83
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4430,12 +4430,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_160
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 18
-        height: 33
+        x: 18
+        y: 82
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4452,12 +4452,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_161
       rect:
         serializedVersion: 2
-        x: 52
-        y: 83
-        width: 9
-        height: 10
+        x: 32
+        y: 64
+        width: 16
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4474,12 +4474,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_162
       rect:
         serializedVersion: 2
-        x: 68
-        y: 81
-        width: 9
-        height: 13
+        x: 53
+        y: 84
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4496,12 +4496,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_163
       rect:
         serializedVersion: 2
-        x: 84
-        y: 83
-        width: 9
-        height: 9
+        x: 69
+        y: 82
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4518,12 +4518,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_164
       rect:
         serializedVersion: 2
-        x: 111
-        y: 79
-        width: 18
-        height: 18
+        x: 85
+        y: 84
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4540,12 +4540,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_165
       rect:
         serializedVersion: 2
-        x: 131
-        y: 83
-        width: 10
-        height: 11
+        x: 132
+        y: 84
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4562,12 +4562,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_166
       rect:
         serializedVersion: 2
-        x: 162
-        y: 82
-        width: 12
-        height: 12
+        x: 163
+        y: 83
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4584,12 +4584,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_167
       rect:
         serializedVersion: 2
-        x: 177
-        y: 81
-        width: 14
-        height: 14
+        x: 178
+        y: 82
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4606,12 +4606,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_168
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 16
+        x: 193
+        y: 81
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4628,12 +4628,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_169
       rect:
         serializedVersion: 2
-        x: 304
-        y: 79
-        width: 17
-        height: 17
+        x: 305
+        y: 80
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4650,12 +4650,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_170
       rect:
         serializedVersion: 2
-        x: 320
-        y: 79
-        width: 17
-        height: 17
+        x: 321
+        y: 80
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4672,12 +4672,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_171
       rect:
         serializedVersion: 2
-        x: 337
-        y: 80
-        width: 15
-        height: 15
+        x: 338
+        y: 81
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4694,12 +4694,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_172
       rect:
         serializedVersion: 2
-        x: 352
-        y: 70
-        width: 17
-        height: 26
+        x: 353
+        y: 71
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4716,12 +4716,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_173
       rect:
         serializedVersion: 2
-        x: 383
-        y: 47
-        width: 18
-        height: 52
+        x: 418
+        y: 80
+        width: 11
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4738,12 +4738,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_174
       rect:
         serializedVersion: 2
-        x: 417
-        y: 79
-        width: 13
-        height: 15
+        x: 435
+        y: 80
+        width: 9
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4760,12 +4760,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_175
       rect:
         serializedVersion: 2
-        x: 434
-        y: 79
-        width: 11
-        height: 13
+        x: 452
+        y: 80
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4782,12 +4782,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_176
       rect:
         serializedVersion: 2
-        x: 451
-        y: 79
-        width: 9
-        height: 11
+        x: 497
+        y: 81
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4804,12 +4804,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_177
       rect:
         serializedVersion: 2
-        x: 496
-        y: 80
-        width: 16
-        height: 16
+        x: 530
+        y: 82
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4826,12 +4826,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_178
       rect:
         serializedVersion: 2
-        x: 529
-        y: 81
+        x: 561
+        y: 70
         width: 14
-        height: 14
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4848,12 +4848,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_179
       rect:
         serializedVersion: 2
-        x: 543
-        y: 79
-        width: 18
-        height: 18
+        x: 2
+        y: 66
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4870,12 +4870,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_180
       rect:
         serializedVersion: 2
-        x: 560
-        y: 69
-        width: 16
-        height: 27
+        x: 17
+        y: 65
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4892,12 +4892,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_181
       rect:
         serializedVersion: 2
-        x: 1
-        y: 65
-        width: 14
-        height: 14
+        x: 50
+        y: 67
+        width: 11
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4914,12 +4914,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_182
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 65
+        y: 48
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4936,12 +4936,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_183
       rect:
         serializedVersion: 2
-        x: 49
-        y: 66
-        width: 13
-        height: 11
+        x: 112
+        y: 65
+        width: 8
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4958,12 +4958,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_184
       rect:
         serializedVersion: 2
-        x: 64
-        y: 47
-        width: 33
-        height: 34
+        x: 120
+        y: 66
+        width: 8
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4980,12 +4980,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_185
       rect:
         serializedVersion: 2
-        x: 111
-        y: 64
-        width: 10
-        height: 15
+        x: 129
+        y: 72
+        width: 13
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5002,12 +5002,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_186
       rect:
         serializedVersion: 2
-        x: 119
-        y: 65
-        width: 10
-        height: 15
+        x: 160
+        y: 64
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5024,12 +5024,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_187
       rect:
         serializedVersion: 2
-        x: 128
-        y: 71
-        width: 15
-        height: 10
+        x: 194
+        y: 66
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5046,12 +5046,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_188
       rect:
         serializedVersion: 2
-        x: 129
-        y: 63
+        x: 224
+        y: 48
         width: 15
-        height: 10
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5068,12 +5068,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_189
       rect:
         serializedVersion: 2
-        x: 159
-        y: 63
-        width: 34
-        height: 18
+        x: 243
+        y: 64
+        width: 8
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5090,12 +5090,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_190
       rect:
         serializedVersion: 2
-        x: 193
-        y: 65
+        x: 257
+        y: 64
         width: 14
-        height: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5112,12 +5112,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_191
       rect:
         serializedVersion: 2
-        x: 223
-        y: 47
-        width: 17
-        height: 34
+        x: 273
+        y: 64
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5134,12 +5134,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_192
       rect:
         serializedVersion: 2
-        x: 242
-        y: 63
-        width: 10
-        height: 18
+        x: 305
+        y: 64
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5156,12 +5156,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_193
       rect:
         serializedVersion: 2
-        x: 256
-        y: 63
-        width: 16
-        height: 18
+        x: 322
+        y: 64
+        width: 13
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5178,12 +5178,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_194
       rect:
         serializedVersion: 2
-        x: 272
-        y: 63
-        width: 16
-        height: 17
+        x: 338
+        y: 69
+        width: 10
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5200,12 +5200,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_195
       rect:
         serializedVersion: 2
-        x: 304
-        y: 63
-        width: 17
-        height: 17
+        x: 344
+        y: 74
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5222,12 +5222,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_196
       rect:
         serializedVersion: 2
-        x: 321
-        y: 63
-        width: 15
-        height: 16
+        x: 401
+        y: 65
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5244,12 +5244,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_197
       rect:
         serializedVersion: 2
-        x: 337
-        y: 68
+        x: 418
+        y: 66
         width: 12
-        height: 11
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5266,12 +5266,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_198
       rect:
         serializedVersion: 2
-        x: 343
-        y: 73
-        width: 6
-        height: 6
+        x: 435
+        y: 67
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5288,12 +5288,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_199
       rect:
         serializedVersion: 2
-        x: 400
-        y: 64
-        width: 16
-        height: 16
+        x: 452
+        y: 68
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5310,12 +5310,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_200
       rect:
         serializedVersion: 2
-        x: 417
+        x: 481
         y: 65
-        width: 14
-        height: 14
+        width: 15
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5332,12 +5332,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_201
       rect:
         serializedVersion: 2
-        x: 434
-        y: 66
-        width: 12
-        height: 12
+        x: 498
+        y: 65
+        width: 13
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5354,12 +5354,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_202
       rect:
         serializedVersion: 2
-        x: 451
+        x: 516
         y: 67
-        width: 10
-        height: 10
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5376,12 +5376,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_203
       rect:
         serializedVersion: 2
-        x: 480
-        y: 64
-        width: 17
-        height: 15
+        x: 532
+        y: 67
+        width: 9
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5398,12 +5398,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_204
       rect:
         serializedVersion: 2
-        x: 497
-        y: 64
-        width: 15
-        height: 15
+        x: 550
+        y: 69
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5420,12 +5420,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_205
       rect:
         serializedVersion: 2
-        x: 515
-        y: 66
-        width: 11
-        height: 11
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5442,12 +5442,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_206
       rect:
         serializedVersion: 2
-        x: 531
-        y: 66
-        width: 11
-        height: 11
+        x: 49
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5464,12 +5464,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_207
       rect:
         serializedVersion: 2
-        x: 549
-        y: 68
-        width: 7
-        height: 7
+        x: 115
+        y: 49
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5486,12 +5486,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_208
       rect:
         serializedVersion: 2
-        x: 2
-        y: 51
-        width: 11
-        height: 9
+        x: 130
+        y: 64
+        width: 13
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5508,12 +5508,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_209
       rect:
         serializedVersion: 2
-        x: 15
-        y: 47
-        width: 18
-        height: 18
+        x: 3
+        y: 52
+        width: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5530,12 +5530,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_210
       rect:
         serializedVersion: 2
-        x: 33
-        y: 49
-        width: 14
-        height: 14
+        x: 34
+        y: 50
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5552,12 +5552,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_211
       rect:
         serializedVersion: 2
-        x: 48
-        y: 47
-        width: 18
-        height: 18
+        x: 129
+        y: 50
+        width: 15
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5574,12 +5574,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_212
       rect:
         serializedVersion: 2
-        x: 114
-        y: 48
-        width: 11
-        height: 17
+        x: 166
+        y: 54
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5596,12 +5596,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_213
       rect:
         serializedVersion: 2
-        x: 128
-        y: 49
-        width: 17
-        height: 11
+        x: 180
+        y: 52
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5618,12 +5618,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_214
       rect:
         serializedVersion: 2
-        x: 165
-        y: 53
-        width: 6
-        height: 6
+        x: 195
+        y: 51
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5640,12 +5640,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_215
       rect:
         serializedVersion: 2
-        x: 179
-        y: 51
-        width: 10
-        height: 10
+        x: 241
+        y: 48
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5662,12 +5662,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_216
       rect:
         serializedVersion: 2
-        x: 194
-        y: 50
+        x: 258
+        y: 48
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5684,12 +5684,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_217
       rect:
         serializedVersion: 2
-        x: 240
-        y: 47
-        width: 16
-        height: 16
+        x: 275
+        y: 48
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5706,12 +5706,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_218
       rect:
         serializedVersion: 2
-        x: 257
-        y: 47
-        width: 14
-        height: 14
+        x: 306
+        y: 50
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5728,12 +5728,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_219
       rect:
         serializedVersion: 2
-        x: 274
-        y: 47
+        x: 322
+        y: 50
         width: 12
-        height: 13
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5750,12 +5750,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_220
       rect:
         serializedVersion: 2
-        x: 305
-        y: 49
-        width: 14
-        height: 14
+        x: 338
+        y: 50
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5772,12 +5772,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_221
       rect:
         serializedVersion: 2
-        x: 321
-        y: 49
-        width: 14
-        height: 14
+        x: 354
+        y: 50
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5794,12 +5794,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_222
       rect:
         serializedVersion: 2
-        x: 337
+        x: 401
         y: 49
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5816,12 +5816,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_223
       rect:
         serializedVersion: 2
-        x: 353
-        y: 49
-        width: 14
-        height: 14
+        x: 418
+        y: 50
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5838,12 +5838,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_224
       rect:
         serializedVersion: 2
-        x: 400
-        y: 48
-        width: 16
-        height: 16
+        x: 435
+        y: 51
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5860,12 +5860,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_225
       rect:
         serializedVersion: 2
-        x: 417
-        y: 49
-        width: 14
-        height: 14
+        x: 436
+        y: 6
+        width: 28
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5882,12 +5882,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_226
       rect:
         serializedVersion: 2
-        x: 434
-        y: 50
-        width: 12
-        height: 12
+        x: 481
+        y: 34
+        width: 27
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5904,12 +5904,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_227
       rect:
         serializedVersion: 2
-        x: 435
-        y: 5
-        width: 30
-        height: 56
+        x: 551
+        y: 38
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5926,12 +5926,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_228
       rect:
         serializedVersion: 2
-        x: 480
-        y: 33
-        width: 29
-        height: 23
+        x: 4
+        y: 36
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5948,12 +5948,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_229
       rect:
         serializedVersion: 2
-        x: 534
-        y: 35
+        x: 16
+        y: 32
         width: 16
-        height: 19
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5970,12 +5970,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_230
       rect:
         serializedVersion: 2
-        x: 550
-        y: 37
-        width: 26
-        height: 19
+        x: 33
+        y: 33
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5992,12 +5992,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_231
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 10
-        height: 10
+        x: 49
+        y: 33
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6014,12 +6014,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_232
       rect:
         serializedVersion: 2
-        x: 15
-        y: 31
-        width: 18
-        height: 18
+        x: 65
+        y: 16
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6036,12 +6036,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_233
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 80
+        y: 16
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6058,12 +6058,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_234
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 115
+        y: 36
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6080,12 +6080,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_235
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
-        width: 16
-        height: 26
+        x: 130
+        y: 36
+        width: 13
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6102,12 +6102,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_236
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 17
-        height: 26
+        x: 160
+        y: 16
+        width: 16
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6124,12 +6124,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_237
       rect:
         serializedVersion: 2
-        x: 114
-        y: 35
+        x: 178
+        y: 16
         width: 14
-        height: 9
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6146,12 +6146,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_238
       rect:
         serializedVersion: 2
-        x: 129
-        y: 35
-        width: 15
-        height: 8
+        x: 193
+        y: 16
+        width: 14
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6168,12 +6168,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_239
       rect:
         serializedVersion: 2
-        x: 159
-        y: 15
-        width: 18
-        height: 33
+        x: 224
+        y: 34
+        width: 16
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6190,12 +6190,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_240
       rect:
         serializedVersion: 2
-        x: 177
-        y: 15
-        width: 16
-        height: 34
+        x: 241
+        y: 34
+        width: 14
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6212,12 +6212,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_241
       rect:
         serializedVersion: 2
-        x: 192
-        y: 15
+        x: 256
+        y: 34
         width: 16
-        height: 34
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6234,12 +6234,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_242
       rect:
         serializedVersion: 2
-        x: 223
-        y: 33
-        width: 18
-        height: 8
+        x: 273
+        y: 34
+        width: 14
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6256,12 +6256,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_243
       rect:
         serializedVersion: 2
-        x: 240
+        x: 304
         y: 33
-        width: 16
-        height: 8
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6278,12 +6278,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_244
       rect:
         serializedVersion: 2
-        x: 255
+        x: 320
         y: 33
-        width: 18
-        height: 8
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6300,12 +6300,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_245
       rect:
         serializedVersion: 2
-        x: 272
+        x: 336
         y: 33
-        width: 16
-        height: 8
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6322,12 +6322,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_246
       rect:
         serializedVersion: 2
-        x: 303
-        y: 32
-        width: 17
-        height: 17
+        x: 352
+        y: 28
+        width: 15
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6344,12 +6344,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_247
       rect:
         serializedVersion: 2
-        x: 319
-        y: 32
-        width: 17
-        height: 17
+        x: 485
+        y: 35
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6366,12 +6366,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_248
       rect:
         serializedVersion: 2
-        x: 335
-        y: 32
-        width: 17
-        height: 17
+        x: 506
+        y: 36
+        width: 12
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6388,12 +6388,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_249
       rect:
         serializedVersion: 2
-        x: 351
-        y: 27
-        width: 17
-        height: 22
+        x: 520
+        y: 35
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6410,12 +6410,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_250
       rect:
         serializedVersion: 2
-        x: 389
-        y: 8
-        width: 23
-        height: 28
+        x: 535
+        y: 36
+        width: 14
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6432,12 +6432,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_251
       rect:
         serializedVersion: 2
-        x: 484
-        y: 34
-        width: 6
-        height: 6
+        x: 545
+        y: 0
+        width: 31
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6454,12 +6454,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_252
       rect:
         serializedVersion: 2
-        x: 505
-        y: 35
-        width: 14
-        height: 16
+        x: 552
+        y: 37
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6476,12 +6476,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_253
       rect:
         serializedVersion: 2
-        x: 519
-        y: 34
+        x: 112
+        y: 18
         width: 16
-        height: 18
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6498,12 +6498,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_254
       rect:
         serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 37
+        x: 129
+        y: 16
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6520,12 +6520,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_255
       rect:
         serializedVersion: 2
-        x: 551
-        y: 36
-        width: 6
-        height: 6
+        x: 224
+        y: 0
+        width: 64
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6542,12 +6542,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_256
       rect:
         serializedVersion: 2
-        x: 111
-        y: 17
-        width: 18
-        height: 14
+        x: 307
+        y: 18
+        width: 8
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6564,12 +6564,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_257
       rect:
         serializedVersion: 2
-        x: 128
-        y: 15
-        width: 17
-        height: 17
+        x: 309
+        y: 4
+        width: 23
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6586,12 +6586,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_258
       rect:
         serializedVersion: 2
-        x: 223
-        y: 0
-        width: 66
-        height: 32
+        x: 324
+        y: 18
+        width: 8
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6608,12 +6608,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_259
       rect:
         serializedVersion: 2
-        x: 306
-        y: 17
-        width: 10
-        height: 12
+        x: 337
+        y: 2
+        width: 13
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6630,12 +6630,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_260
       rect:
         serializedVersion: 2
-        x: 308
-        y: 3
-        width: 25
-        height: 9
+        x: 352
+        y: 1
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6652,12 +6652,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_261
       rect:
         serializedVersion: 2
-        x: 323
-        y: 17
-        width: 10
-        height: 14
+        x: 390
+        y: 9
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6674,12 +6674,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_262
       rect:
         serializedVersion: 2
-        x: 336
-        y: 1
+        x: 418
+        y: 0
         width: 15
-        height: 30
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6696,12 +6696,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_263
       rect:
         serializedVersion: 2
-        x: 351
+        x: 434
         y: 0
-        width: 17
-        height: 28
+        width: 11
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6718,12 +6718,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_264
       rect:
         serializedVersion: 2
-        x: 417
+        x: 454
         y: 0
-        width: 17
-        height: 30
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6740,12 +6740,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_265
       rect:
         serializedVersion: 2
-        x: 433
+        x: 485
         y: 0
-        width: 13
-        height: 18
+        width: 21
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6762,12 +6762,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_266
       rect:
         serializedVersion: 2
-        x: 453
+        x: 518
         y: 0
-        width: 7
-        height: 6
+        width: 5
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6784,12 +6784,12 @@ TextureImporter:
       name: Fire Effect and Bullet 16x16_267
       rect:
         serializedVersion: 2
-        x: 484
+        x: 533
         y: 0
-        width: 23
-        height: 14
+        width: 7
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6802,55 +6802,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Fire Effect and Bullet 16x16_268
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 0
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 447129fa5306614a0800000000000000
-      internalID: -6623000418306615484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Effect and Bullet 16x16_269
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 0
-        width: 9
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b4bfcb65cc5e0d20800000000000000
-      internalID: 3246634384367793335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 50d1938166401be4c8bbb458797bedbd
     internalID: 0
     vertices: []
     indices: 
@@ -6858,7 +6814,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Fire Effect and Bullet 16x16_0: 6929109921658425551
       Fire Effect and Bullet 16x16_1: -6725712562847944435
@@ -7048,8 +7006,6 @@ TextureImporter:
       Fire Effect and Bullet 16x16_265: -2271301242099883934
       Fire Effect and Bullet 16x16_266: -1070809380046067272
       Fire Effect and Bullet 16x16_267: -2934250393386616749
-      Fire Effect and Bullet 16x16_268: -6623000418306615484
-      Fire Effect and Bullet 16x16_269: 3246634384367793335
       Fire Effect and Bullet 16x16_27: -8390030163010929573
       Fire Effect and Bullet 16x16_28: 211677321140733822
       Fire Effect and Bullet 16x16_29: 2394111599070139849

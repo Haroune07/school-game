@@ -51,6 +51,9 @@ public class MovePlayer : MonoBehaviour
     private float currentRunAnimSpeedScale = 1;
     private bool wallJumpPressed;
 
+    public Transform FireProjectileLauncher;
+    public GameObject FireProjectile;
+
     private bool didAttack = false;
     private float coyoteTime;
 
@@ -79,6 +82,8 @@ public class MovePlayer : MonoBehaviour
     void Update()
     {
         input = move.action.ReadValue<Vector2>();
+
+        Debug.Log(input);
         isSprinting = sprint.action.IsPressed();
         bool grounded = IsGrounded();
         bool hittingWall = IsHittingWall();
@@ -122,12 +127,18 @@ public class MovePlayer : MonoBehaviour
             {
                 hitCount = minHitCount;
             }
+            
+            if (hitCount == 3) {
+                Instantiate(FireProjectile, FireProjectileLauncher.position, Quaternion.identity);
+            }
 
             anim.SetInteger(hitCountInt, hitCount);
             anim.SetTrigger(attackTrigger);
             didAttack = true;
             IncreaseHitCount();
             lastHitTime = Time.time;
+
+            
         }
 
         if (grounded)
