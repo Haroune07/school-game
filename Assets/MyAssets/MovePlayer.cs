@@ -25,6 +25,7 @@ public class MovePlayer : MonoBehaviour
     public string hurtTrigger = "Hurt";
     public string speedMulString = "SpeedMultiplier";
     public string wallJumpTrigger = "WallJump";
+    public string hitCountInt = "HitCount";
     public float sprintAnimSpeedScale = 2;
     public float attackDashImpulse = 5f;
 
@@ -55,6 +56,13 @@ public class MovePlayer : MonoBehaviour
 
     public float MaxCoyoteTime = .05f;
 
+    private int hitCount;
+    private int minHitCount = 1;
+    private int maxHitCount = 3;
+
+    private float comboWindow = .6f;
+    private float lastHitTime = 0;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -64,6 +72,8 @@ public class MovePlayer : MonoBehaviour
         initialScale = transform.localScale;
         currentSpeed = walkSpeed;
         coyoteTime = MaxCoyoteTime;
+
+        hitCount = minHitCount;
     }
 
     void Update()
@@ -107,8 +117,17 @@ public class MovePlayer : MonoBehaviour
         }
 
         if (attackAction.action.WasPressedThisFrame()) { 
+
+            if(Time.time - lastHitTime > comboWindow)
+            {
+                hitCount = minHitCount;
+            }
+
+            anim.SetInteger(hitCountInt, hitCount);
             anim.SetTrigger(attackTrigger);
             didAttack = true;
+            IncreaseHitCount();
+            lastHitTime = Time.time;
         }
 
         if (grounded)
@@ -189,5 +208,10 @@ public class MovePlayer : MonoBehaviour
         float sign = Mathf.Sign(transform.localScale.x);
         Vector2 dir = new Vector2(sign, 0);
         return Physics2D.Raycast(wallCheck.position, dir, wallCheckDistance);
+    }
+
+    private void IncreaseHitCount()
+    {
+        hitCount = (hitCount % maxHitCount) + minHitCount;
     }
 }
