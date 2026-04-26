@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a9d900bcfcafe745b693ffa597fc47f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Animations/Idle_Sit.anim
+  uploadId: 902062

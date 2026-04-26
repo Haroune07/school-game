@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b115dcb1c503f0c4e9733d366fb8e665
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Prefabs/BuiltIn/Dark Knight Builtin.prefab
+  uploadId: 902062

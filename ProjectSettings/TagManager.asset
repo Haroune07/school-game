@@ -7,6 +7,9 @@ TagManager:
   - InstantDeath
   - Collectible
   - Hurt
+  - Projectile
+  - Enemy
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
@@ -46,3 +49,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  m_MigratedRenderPipelines: []

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 75e12520f4399424eb5fe8f4d90b04c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Scripts/BeamShot.cs
+  uploadId: 902062

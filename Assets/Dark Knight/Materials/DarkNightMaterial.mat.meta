@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3b0f512bdb2a2b749a095be9c80599eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Materials/DarkNightMaterial.mat
+  uploadId: 902062

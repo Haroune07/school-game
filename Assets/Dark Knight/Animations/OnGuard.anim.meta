@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f924671cc67c5a144beaf6f539fd88d7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Animations/OnGuard.anim
+  uploadId: 902062

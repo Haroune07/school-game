@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0e83e926ba26f541b22cf231dd54d51
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290506
+  packageName: "Dark Knight 2D \u2013 Animated Character + VFX"
+  packageVersion: 1.0.0
+  assetPath: Assets/Dark Knight/Animations/Death.anim
+  uploadId: 902062
