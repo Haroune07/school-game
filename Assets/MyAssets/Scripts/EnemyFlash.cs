@@ -4,11 +4,11 @@ using UnityEngine;
 public class EnemyFlash : MonoBehaviour
 {
     [Header("Flash Materials")]
-    public Material materialA; // Drag WhiteFlashMat here
-    public Material materialB; // Drag BlackFlashMat here
+    public Material materialA;
+    public Material materialB;
 
     [Header("Timings")]
-    public float stageDuration = 0.05f; // Duration for each color phase
+    public float stageDuration = 0.05f;
 
     private SpriteRenderer[] spriteRenderers;
     private Material[] originalMaterials;
@@ -16,7 +16,6 @@ public class EnemyFlash : MonoBehaviour
 
     void Start()
     {
-        // Grab all child sprites
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
         originalMaterials = new Material[spriteRenderers.Length];
 
@@ -37,15 +36,12 @@ public class EnemyFlash : MonoBehaviour
 
     private IEnumerator DoubleFlashRoutine()
     {
-        // --- STAGE 1: Flash Color A (White) ---
         ApplyMaterialToAll(materialA);
         yield return new WaitForSecondsRealtime(stageDuration);
 
-        // --- STAGE 2: Flash Color B (Black) ---
         ApplyMaterialToAll(materialB);
         yield return new WaitForSecondsRealtime(stageDuration);
 
-        // --- STAGE 3: Revert to Normal ---
         RevertMaterials();
     }
 

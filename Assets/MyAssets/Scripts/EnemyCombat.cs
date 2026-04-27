@@ -26,8 +26,8 @@ public class EnemyCombat : MonoBehaviour
 
     public void TakeHit(Vector2 hitDir, float force)
     {
-        HitStopUtils.TriggerHitStop();
         GetComponent<EnemyFlash>().TriggerFlash();
+        HitStopUtils.TriggerHitStop();
         currentHealth--;
 
         if (healthManager != null)

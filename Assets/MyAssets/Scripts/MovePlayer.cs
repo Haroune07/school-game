@@ -1,6 +1,3 @@
-using NUnit.Framework;
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -248,15 +245,6 @@ public class MovePlayer : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("InstantDeath"))
-        {
-            isRolling = false; // Forcefully cancel roll to prevent sliding while dying
-            anim.SetTrigger(hurtTrigger);
-        }
     }
 
     private bool IsHittingWall()

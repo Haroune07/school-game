@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - InstantDeath
   - Collectible
   - Hurt
   - Projectile
@@ -14,15 +13,15 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - InstantDeath
+  - Characters
   - Player
   - Background
-  - 
-  - 
-  - 
+  - Foreground
+  - Ground
+  - VFX
   - 
   - 
   - 
@@ -46,6 +45,21 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 2640162937
+    locked: 0
+  - name: Midground
+    uniqueID: 972039925
+    locked: 0
+  - name: Ground
+    uniqueID: 1237594261
+    locked: 0
+  - name: Characters
+    uniqueID: 4099830571
+    locked: 0
+  - name: Foreground
+    uniqueID: 3613286483
+    locked: 0
+  - name: VFX
+    uniqueID: 2499588447
     locked: 0
   - name: Default
     uniqueID: 0
