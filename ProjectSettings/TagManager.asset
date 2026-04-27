@@ -19,7 +19,7 @@ TagManager:
   - UI
   - InstantDeath
   - Player
-  - 
+  - Background
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2640162937
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
