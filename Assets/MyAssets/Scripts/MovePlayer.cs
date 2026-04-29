@@ -110,8 +110,7 @@ public class MovePlayer : MonoBehaviour
         {
             jumpPressed = true;
         }
-
-        currentSpeed = isSprinting ? sprintSpeed : walkSpeed;
+        currentSpeed = isSprinting && grounded ? sprintSpeed : walkSpeed;
         currentRunAnimSpeedScale = isSprinting ? sprintAnimSpeedScale : 1;
 
         // Visual orientation and particles
