@@ -46,8 +46,14 @@ TagManager:
   - name: Background
     uniqueID: 2640162937
     locked: 0
+  - name: Trees
+    uniqueID: 2179706457
+    locked: 0
   - name: Midground
     uniqueID: 972039925
+    locked: 0
+  - name: Plants
+    uniqueID: 3607661257
     locked: 0
   - name: rocks
     uniqueID: 1035718357
@@ -72,4 +78,3 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-  m_MigratedRenderPipelines: []
