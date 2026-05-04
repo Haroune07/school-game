@@ -36,7 +36,7 @@ public class MoveProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        var enemy = collision.GetComponent<EnemyCombat>();
+        var enemy = collision.GetComponent<EnemyHealth>();
 
         if (enemy != null)
         {
