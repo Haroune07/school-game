@@ -13,13 +13,6 @@ public class TeleportScene : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public async Task LoadNextScene()
     {
         await SceneManager.LoadSceneAsync(SceneAsset.name);

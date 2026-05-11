@@ -17,7 +17,7 @@ public class EnemySwordHit : MonoBehaviour
     //    }
     //}
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         counter++;
         Debug.Log($"Collision detected! {counter}");
@@ -29,7 +29,7 @@ public class EnemySwordHit : MonoBehaviour
             player.TakeHit(dir, knockbackForce);
             gameObject.SetActive(false);
         }
-
+        
         
     }
 }
