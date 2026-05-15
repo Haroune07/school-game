@@ -16,6 +16,9 @@ public class MovePlayer : MonoBehaviour
     public float jumpSpeed = 14f;
     public float MaxCoyoteTime = .05f;
 
+    [Tooltip("Higher = snappier movement, Lower = smoother acceleration")]
+    public float acceleration = 0.2f;
+
     [Header("Roll Settings")]
     public float rollSpeed = 15f;
     public float rollCooldown = 1f;
@@ -26,6 +29,10 @@ public class MovePlayer : MonoBehaviour
     public GameObject swordCollisionDetector;
     public Transform FireProjectileLauncher;
     public GameObject FireProjectile;
+
+    [Header("Physics Materials")]
+    public PhysicsMaterial2D groundMaterial;
+    public PhysicsMaterial2D wallMaterial;
 
     [Header("Animation Settings")]
     public float sprintAnimSpeedScale = 2;
@@ -59,6 +66,7 @@ public class MovePlayer : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private AudioSource audioSource;
+
     private Vector3 initialScale;
     private Vector2 input;
 
@@ -80,10 +88,10 @@ public class MovePlayer : MonoBehaviour
     private int currentAttackIndex;
     private float lastHitTime = 0;
     private float nextAttackTime = 0f;
+
     private const int minHitCount = 1;
     private const int maxHitCount = 3;
     private const float comboWindow = .8f;
-
 
     void Start()
     {
@@ -92,6 +100,7 @@ public class MovePlayer : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
 
         initialScale = transform.localScale;
+
         currentSpeed = walkSpeed;
         coyoteTime = MaxCoyoteTime;
 
@@ -103,15 +112,23 @@ public class MovePlayer : MonoBehaviour
         input = move.action.ReadValue<Vector2>();
 
         isSprinting = sprint.action.IsPressed();
+
         bool grounded = IsGrounded();
         bool hittingWall = IsHittingWall();
 
+        // Jump buffering
         if (jumpAction.action.WasPressedThisFrame())
         {
             jumpPressed = true;
         }
-        currentSpeed = isSprinting && grounded ? sprintSpeed : walkSpeed;
-        currentRunAnimSpeedScale = isSprinting ? sprintAnimSpeedScale : 1;
+
+        currentSpeed = isSprinting && grounded
+            ? sprintSpeed
+            : walkSpeed;
+
+        currentRunAnimSpeedScale = isSprinting
+            ? sprintAnimSpeedScale
+            : 1;
 
         // Visual orientation and particles
         if (input.x != 0)
@@ -140,7 +157,8 @@ public class MovePlayer : MonoBehaviour
         }
 
         // Attack logic
-        if (attackAction.action.WasPressedThisFrame() && Time.time >= nextAttackTime)
+        if (attackAction.action.WasPressedThisFrame()
+            && Time.time >= nextAttackTime)
         {
             if (Time.time - lastHitTime > comboWindow)
             {
@@ -151,27 +169,32 @@ public class MovePlayer : MonoBehaviour
 
             anim.SetInteger(hitCountInt, hitCount);
             anim.SetTrigger(attackTrigger);
+
             didAttack = true;
 
-            // Trigger combo cooldown if we reached the last hit
             if (hitCount == maxHitCount)
             {
                 nextAttackTime = Time.time + comboCooldown;
             }
 
             IncreaseHitCount();
+
             lastHitTime = Time.time;
         }
 
         // Roll logic
-        if (rollAction.action.WasPressedThisFrame() && Time.time >= nextRollTime && !isRolling && grounded)
+        if (rollAction.action.WasPressedThisFrame()
+            && Time.time >= nextRollTime
+            && !isRolling
+            && grounded)
         {
             anim.SetTrigger(rollTrigger);
+
             isRolling = true;
             nextRollTime = Time.time + rollCooldown;
         }
 
-        // Timers and friction
+        // Coyote time
         if (grounded)
         {
             coyoteTime = MaxCoyoteTime;
@@ -181,9 +204,10 @@ public class MovePlayer : MonoBehaviour
             coyoteTime -= Time.deltaTime;
         }
 
-        if (hittingWall)
+        // Physics material switching
+        if (hittingWall && !grounded)
         {
-            rb.sharedMaterial.friction = 4f;
+            rb.sharedMaterial = wallMaterial;
 
             if (jumpPressed)
             {
@@ -193,7 +217,7 @@ public class MovePlayer : MonoBehaviour
         }
         else
         {
-            rb.sharedMaterial.friction = 0;
+            rb.sharedMaterial = groundMaterial;
         }
 
         // Animations
@@ -210,15 +234,34 @@ public class MovePlayer : MonoBehaviour
 
         if (isRolling)
         {
-            rb.linearVelocity = new Vector2(sign * rollSpeed, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(
+                sign * rollSpeed,
+                rb.linearVelocity.y
+            );
         }
         else
         {
-            rb.linearVelocity = new Vector2(input.x * currentSpeed, rb.linearVelocity.y);
+            float targetVelX = input.x * currentSpeed;
+
+            // Lerp gradually moves current velocity toward target velocity.
+            // This creates smoother acceleration/deceleration and allows
+            // moving platforms to naturally transfer momentum to the player.
+            float smoothVelX = Mathf.Lerp(
+                rb.linearVelocity.x,
+                targetVelX,
+                acceleration
+            );
+
+            rb.linearVelocity = new Vector2(
+                smoothVelX,
+                rb.linearVelocity.y
+            );
 
             if (jumpPressed)
             {
-                if (IsGrounded() || coyoteTime > 0 || wallJumpPressed)
+                if (IsGrounded()
+                    || coyoteTime > 0
+                    || wallJumpPressed)
                 {
                     if (audioSource != null && jumpSound != null)
                     {
@@ -226,7 +269,12 @@ public class MovePlayer : MonoBehaviour
                     }
 
                     if (rb.linearVelocityY < 15)
-                        rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+                    {
+                        rb.AddForce(
+                            Vector2.up * jumpSpeed,
+                            ForceMode2D.Impulse
+                        );
+                    }
                 }
 
                 jumpPressed = false;
@@ -235,7 +283,11 @@ public class MovePlayer : MonoBehaviour
 
             if (didAttack)
             {
-                rb.AddForce(new Vector2(sign, 0) * attackDashImpulse, ForceMode2D.Impulse);
+                rb.AddForce(
+                    new Vector2(sign, 0) * attackDashImpulse,
+                    ForceMode2D.Impulse
+                );
+
                 didAttack = false;
             }
         }
@@ -243,14 +295,44 @@ public class MovePlayer : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(
+            groundCheck.position,
+            Vector2.down,
+            groundCheckDistance
+        );
+
+        foreach (var hit in hits)
+        {
+            if (hit.collider != null && !hit.collider.isTrigger && !hit.transform.IsChildOf(transform))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private bool IsHittingWall()
     {
         float sign = Mathf.Sign(transform.localScale.x);
+
         Vector2 dir = new Vector2(sign, 0);
-        return Physics2D.Raycast(wallCheck.position, dir, wallCheckDistance);
+
+        RaycastHit2D[] hits = Physics2D.RaycastAll(
+            wallCheck.position,
+            dir,
+            wallCheckDistance
+        );
+
+        foreach (var hit in hits)
+        {
+            if (hit.collider != null && !hit.collider.isTrigger && !hit.transform.IsChildOf(transform))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private void IncreaseHitCount()
@@ -260,8 +342,15 @@ public class MovePlayer : MonoBehaviour
 
     private void SpawnProjectile()
     {
-        float lookDir = transform.localScale.x > 0 ? 0 : 180;
-        Instantiate(FireProjectile, FireProjectileLauncher.position, Quaternion.Euler(0, lookDir, 0));
+        float lookDir = transform.localScale.x > 0
+            ? 0
+            : 180;
+
+        Instantiate(
+            FireProjectile,
+            FireProjectileLauncher.position,
+            Quaternion.Euler(0, lookDir, 0)
+        );
     }
 
     private void PlayhitSound()
@@ -272,9 +361,16 @@ public class MovePlayer : MonoBehaviour
         }
         else
         {
-            audioSource.pitch = UnityEngine.Random.Range(0.95f, 1.05f);
+            audioSource.pitch = UnityEngine.Random.Range(
+                0.95f,
+                1.05f
+            );
         }
-        audioSource.PlayOneShot(slashSounds[currentAttackIndex - 1]);
+
+        audioSource.PlayOneShot(
+            slashSounds[currentAttackIndex - 1]
+        );
+
         audioSource.pitch = 1f;
     }
 
