@@ -13,10 +13,7 @@ EditorBuildSettings:
     guid: 90bb29d4239e450459fe95dc8c57f165
   - enabled: 1
     path: Assets/Scenes/GreenLand/Night.unity
-    guid: 8acf1aa8d62068941a9ab4da5d300897
-  - enabled: 1
-    path: Assets/Scenes/Nether.unity
-    guid: 058746956ef5edf468fa10ae8676c7bc
+    guid: 14f2f4b22f1f21a4e927609a32d7b498
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 250d32d2bffbd2541ab13cf4bbcd20b5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

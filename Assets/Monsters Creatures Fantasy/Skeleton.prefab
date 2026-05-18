@@ -188,7 +188,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 7
+  m_Mass: 3
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -219,7 +219,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -260,13 +260,13 @@ GameObject:
   - component: {fileID: 3194009419404535774}
   - component: {fileID: 3983119729182212287}
   - component: {fileID: 8939831240330986606}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SwordCollision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3194009419404535774
 Transform:
   m_ObjectHideFlags: 0
