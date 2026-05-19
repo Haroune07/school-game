@@ -24,7 +24,7 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null || GetComponent<EnemyHealth>().currentHealth <= 0) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 

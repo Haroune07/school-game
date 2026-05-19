@@ -1,4 +1,3 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 
 public class LightUpTorch : MonoBehaviour, IInteractable
@@ -12,6 +11,8 @@ public class LightUpTorch : MonoBehaviour, IInteractable
     private bool isLit = false;
 
     public bool IsLit => isLit;
+
+    public GameObject fireLight;
 
     void Start()
     {
@@ -64,6 +65,8 @@ public class LightUpTorch : MonoBehaviour, IInteractable
         audioSource.Play();
 
         anim.SetTrigger("Begin");
+
+        fireLight.SetActive(true);
 
         InteractionManager.Instance.ClearCurrent();
     }

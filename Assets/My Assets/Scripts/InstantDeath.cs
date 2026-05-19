@@ -10,7 +10,7 @@ public class InstantDeath : MonoBehaviour
         if (p != null)
         {
             //make him die
-            p.IncreaseOrDecreaseHealth(p.maxHealth);
+            p.IncreaseOrDecreaseHealth(- p.maxHealth);
 
             p.transform.position = respawnPoint.position;
         }
